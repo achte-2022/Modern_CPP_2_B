@@ -8,12 +8,46 @@ Tejas Acharya [Twitter](https://twitter.com/achte_te)
 
 
 To Build and Run:
+
+Eg 1:
 ```sh
 git clone git@github.com:achte-2022/Modern_CPP_2_B.git
 cd Modern_CPP_2_B
 bash install.sh
 ./bin/task_2 100.txt 200.txt
 ```
+Output = 150
+
+
+Eg 2:
+```sh
+git clone git@github.com:achte-2022/Modern_CPP_2_B.git
+cd Modern_CPP_2_B
+bash install.sh
+./bin/task_2 100.png 200.png
+```
+Output = 300
+
+
+Eg 3:
+```sh
+git clone git@github.com:achte-2022/Modern_CPP_2_B.git
+cd Modern_CPP_2_B
+bash install.sh
+./bin/task_2 100.txt 200.png
+```
+Output = 100
+
+
+Eg 4:
+```sh
+git clone git@github.com:achte-2022/Modern_CPP_2_B.git
+cd Modern_CPP_2_B
+bash install.sh
+./bin/task_2 100.doc 200.png
+```
+Output = Incorrect Arguments.
+
 
 To Test:
 ```sh
